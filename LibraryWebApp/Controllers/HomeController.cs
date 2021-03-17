@@ -10,21 +10,25 @@ namespace LibraryWebApp.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            var _v = View();
+            return _v;
         }
 
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
-
-            return View();
+            var _v = View();
+            return _v;
         }
 
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
-
+            // var _code = new HttpStatusCodeResult(System.Net.HttpStatusCode.OK);
             return View();
         }
+
+
+
     }
 }
