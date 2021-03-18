@@ -148,9 +148,9 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
-    <Content Include="Static\Locations-Hours.html" />
-    <Content Include="Static\Index.html" />
-    <Content Include="Static\My-Account.html" />
+    <Content Include="Static\locationshours.html" />
+    <Content Include="Static\eventsvideos.html" />
+    <Content Include="Static\usingthelibrary.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
