@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <script type="text/javascript">
+        //<![CDATA[
+        var i = 2;
+
+        if (i < 5) {
+            // some code
+            alert(i);
+        }
+        //]]>
+
+
+        function helloWorld() {
+
+            var name = document.getElementById(inputfield);
+            console.log(name);
+
+            var name1 = document.getElementById('inputfield').value;
+            console.log(name1);
+
+            alert("hi " + name1);
+        }
+
+    </script>
+
+    <script src="myScript.js"></script>
+
+
+</head>
+<body>
+
+    <input type="text" id="inputfield" />
+    <button type="button" onclick="alert('Hello world!')">Click Me!</button>
+    <button type="button" onclick="helloWorld()">Click Me!</button>
+
+</body>
+</html>
