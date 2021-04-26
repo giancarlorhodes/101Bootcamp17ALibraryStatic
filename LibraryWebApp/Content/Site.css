@@ -39,18 +39,18 @@ li {
     display: inline;
 }
 
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-family: Arial;
-    }
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial;
+}
 
-        li a:hover {
-            background-color: blueviolet;
-        }
+li a:hover {
+    background-color: blueviolet;
+}
 
 .mega-search-library {
     font-family: 'Baskerville Old Face';
