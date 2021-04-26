@@ -154,7 +154,6 @@
     <Content Include="Static\helloworld.html" />
     <Content Include="Static\home.html" />
     <Content Include="Static\hours.html" />
-    <Content Include="Static\hours.old.html" />
     <Content Include="Static\images\DBRL-linear-transparent.png" />
     <Content Include="Static\library.html" />
     <Content Include="Web.config" />
