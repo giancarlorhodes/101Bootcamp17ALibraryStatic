@@ -27,8 +27,5 @@ namespace LibraryWebApp.Controllers
             // var _code = new HttpStatusCodeResult(System.Net.HttpStatusCode.OK);
             return View();
         }
-
-
-
     }
 }
